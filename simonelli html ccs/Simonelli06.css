@@ -1,0 +1,24 @@
+/*   
+p6
+Guillermo 
+Noviembre 2020
+*/
+html{
+
+    background-color: lightpink;
+}
+
+.contenedor{    
+    background-color: white;
+    border: 2px dotted black; 
+    padding:10px;
+    margin:20px;
+    width;55%
+    margin:auto;
+    
+}
+ol{    list-style: lower-greek;
+}
+ul{    
+list-style: circle;
+}

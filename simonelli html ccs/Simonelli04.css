@@ -1,0 +1,19 @@
+/*
+    Práctica 4
+    Guille Simonelli
+    noviembre 2020
+*/
+h1{
+background-color:red;
+    color:white;
+	border-radius: 25px;
+
+}
+body{
+    background-color: antiquewhite
+} 
+p{
+  color:blue
+}
+div{background-color: pink;
+color:whitesmoke;}

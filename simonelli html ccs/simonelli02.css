@@ -1,0 +1,21 @@
+/*
+hoja de estilo 
+creador: guillermo
+noviembre 2020
+*/
+h1{
+background-color: ´- blue;
+}
+
+p{
+    background-color: antiquewhite;
+    margin: 10px;
+    padding:50px;
+    border: 3px solid black;
+    border-radius:25px;
+}
+
+div{
+    background-color: azure;
+    color:white;
+}
