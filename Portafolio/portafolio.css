@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding-left: 0px;
+    padding-bottom: 0px;}
+footer{
+    position:inherit;
+    bottom:0px;
+    width:100%;
+    background-color: black;
+    color:white;
+    padding: 5px;
+    height: 100px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    }
+.logo{display: flex;}
+
+img{
+    padding-top: 10px;
+    width: 3%;}
+
+h1{
+    text-align: center;
+    padding: 100px;
+    height: 100px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    color:white;
+ }
+
+
+
+
+body{
+    background-image:url(Img/wos%20vs%20aczino.jpg);}
+        
+#header{
+    margin: auto;
+    width: 100%;
+    overflow: auto;
+}
+                                                                                                                                                                                                                                 
+ul, ol{
+    list-style: none;
+} 
+
+
+.nav li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+   background-color: brown;
+   height: 60px;
+   padding-top: 20px;
+   transition: all 1s ease;
+    
+    
+    }
+
+.nav li a:hover{
+    transform: scale(1);
+    background-color: lightcoral;
+    border-bottom: red 5px solid;
+}
+
+.nav> li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    
+}
+
+.nav li ul{                                                            
+    display:none;
+    position: absolute;
+    width: %;
+    z-index: 2;
+    
+    
+}
+
+.nav li:hover> ul{
+    display: block;
+    
+}
+
+.nav li ul{
+    position: relative;
+    
+}
+
+.nav li ul li ul{
+    right: -140px;
+    top: 0px;
+    
+}
+  
+section{
+    width: 80%;
+    margin: auto;
+    border: dashed;
+    padding: 15px;
+    padding-left: 50px;
+    margin-bottom: 20px;
+}
+
+.listaordenada{
+    color:white;
+    background-color: #d86b6b;}
+
+ol{ 
+    list-style-type: decimal;}
+
+p{
+    font-size: 18px
+}
+
+
+.preguntas1{ 
+font-size: 20px;}
+
+.preguntas2{ 
+font-size: 20px;}
+
+.preguntas3{ 
+font-size: 20px;}
+
+.preguntas4{ 
+font-size: 20px;}

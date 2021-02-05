@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding-left: 0px;
+}
+
+footer{
+    position:relative;
+    bottom:0px;
+    width:100%;
+    background-color: black;
+    color:white;
+    padding: 5px;
+    height: 65px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;}
+img{
+    width: 3%;
+}
+table, th, td {
+       border: 1px solid red; 
+        border-collapse: collapse;
+    }
+th, td{
+    padding: 15px;
+    background-color: cornsilk;
+}
+
+tr{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    padding: 100px;
+    height: 100px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    color:white;
+ }
+
+h2{
+    color:white;
+    text-align:center;
+    padding-top: 30px;
+    height: 100px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    
+ }
+
+img{
+    width: 3%;
+}
+
+body{
+    background:url(Img/ricto%20vs%20acertijo.jpg) no-repeat center center fixed;
+    background-size: cover;}
+        
+        #header{
+    margin: auto;
+    width: 100%;
+    overflow: auto;
+}
+
+ul, ol{
+    list-style: none;
+} 
+
+
+.nav li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+   background-color: brown;
+   height: 60px;
+   padding-top: 20px;
+   transition: all 1s ease;
+    
+    
+    }
+
+.nav li a:hover{
+    transform: scale(1);
+    background-color: lightcoral;
+    border-bottom: red 5px solid;
+}
+
+.nav> li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    
+}
+
+.nav li ul{                                                            
+    display:none;
+    position: absolute;
+    width: %;
+    z-index: 2;
+    
+    
+}
+
+.nav li:hover> ul{
+    display: block;
+    
+}
+
+.nav li ul{
+    position: relative;
+    
+}
+
+.nav li ul li ul{
+    right: -140px;
+    top: 0px;
+    
+}
+
+section{
+    width: 70%;
+    margin: auto;
+    padding: 15px;
+}
+
+.listaJornadas{
+    text-align: center;
+    
+}
+
+.participantes{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    
+}
+
+.participantes img{
+    width: 220px;
+    height: 220px;
+    padding:20px;
+    border-radius: 360px;
+}
